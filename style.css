@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    background-color: beige;
+}
+header{
+    background-color: maroon;
+    color:white;
+    text-align: center;
+    padding:20px;
+    height:100px;
+}
+header p{
+    color:aliceblue;
+    padding:10px;
+}
+.inputs{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding:50px;
+}
+.inputs input{
+   padding:20px;
+   width:800px;
+   outline:none;
+   border: 1px solid  maroon;
+   border-radius:10px;
+   box-shadow: 0 3px 6px rgba(245, 150, 150, 0.5);
+}
+.inputs button{
+    padding: 20px 40px;
+    background-color: maroon;
+    outline:none;
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+.add-book h2{
+    text-align:center;
+    color:maroon;
+    padding:30px;
+}
+#form{
+    max-width:600px;
+    background-color:white;
+    border-radius:20px;
+    margin: 0 auto;
+    padding:20px;
+}
+#form input{
+    width:100%;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid maroon;
+    outline:none;
+    border-radius: 10px;
+}
+#form button{
+    background-color:maroon;
+    color:white;
+    padding:20px 60px;
+    outline:none;
+    border-radius:10px;
+    text-align:center;
+    border: none;
+    margin-left:35%;
+}
+ .books-list {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+           
+        }
+
+
+        .book-card {
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px #ddd;
+            width: 400px;
+            height:350px;
+             margin:0 auto;
+             border: 1px solid maroon;
+        }
+
+
+        .book-card img {
+            width: 120px;
+            height: 160px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+
+        .book-card h2 {
+            color: #243b55;
+            margin-bottom: 8px;
+        }
+
+
+        .book-card p {
+            margin-bottom: 10px;
+        }
+
+
+        .status {
+            font-weight: bold;
+            color: green;
+        }
+
+
+        .borrowed {
+            color: #d35400;
+        }
+
+
+        .book-card button {
+    background-color:rgb(128, 28, 0);
+    color:white;
+    padding:10px 30px;
+    outline:none;
+    border-radius:10px;
+    text-align:center;
+    border: none;
+            margin: 5px 2px;
+        }
+
+
+        .delete-btn {
+    background-color:maroon;
+    color:white;
+    padding:10px 30px;
+    outline:none;
+    border-radius:10px;
+    text-align:center;
+    border: none;
+            
+        }
+
+
+        #message {
+            text-align: center;
+            margin: 20px;
+            color: #777;
+        }
+
+footer{
+    background-color:maroon;
+    height:70px;
+    margin-top:30px;
+    color:white;
+    text-align: center;
+    padding:20px;
+}
